@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("/image/theme.jpg");
+    background-size: cover;
+  }
+  
+  header {
+    background-color: #f1f1f1;
+    padding: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  footer {
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  }
+
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: aquamarine;
+    font-size: 30px;
+    margin-top: 50px;    
+  }
+
+  
+  .product-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .category-item {
+    width: 200px; /* Adjust width as needed */
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    color: azure;
+    background-color: #747f8a;
+    cursor: pointer;
+  }
+  
+  .category-item img {
+    width: 100%;
+    height: 150px; /* Adjust height as needed */
+    object-fit: cover;
+  }
+  
+  .category-item h3 {
+    margin-top: 10px;
+  }
+  
